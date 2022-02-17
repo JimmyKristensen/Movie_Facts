@@ -16,7 +16,7 @@ public class MovieService {
     public static Object getFirstMovie(){
        return movies.get(0).toString();
     }
-gfhfgh
+
 
     public static Object getRandomMovie(){
         int min = 0;

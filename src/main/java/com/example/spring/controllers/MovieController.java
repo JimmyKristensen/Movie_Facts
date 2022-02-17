@@ -20,7 +20,7 @@ public class MovieController {
     public String getRandom(){
         return "Here is a random movie " + MovieService.getRandomMovie();
     }
-fghfg
+
     @GetMapping("/getTenSortByPopularity")
     public String getTenSortByPopularity() {
         return MovieService.getTenSortByPopularityList();
